@@ -1,0 +1,10 @@
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/HardCoreFFA.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/commands/BuildCommand.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/commands/setLocationCommand.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/defaults/FFADefaults.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/BlockBreakListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/EntityDamageListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/FoodLVLListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/JoinListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/QuitListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/manager/LocationManager.java

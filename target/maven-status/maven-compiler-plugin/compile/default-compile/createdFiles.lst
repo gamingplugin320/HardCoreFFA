@@ -1,0 +1,10 @@
+de/gamingplugin/hardCoreFFA/defaults/FFADefaults.class
+de/gamingplugin/hardCoreFFA/commands/setLocationCommand.class
+de/gamingplugin/hardCoreFFA/manager/LocationManager.class
+de/gamingplugin/hardCoreFFA/HardCoreFFA.class
+de/gamingplugin/hardCoreFFA/commands/BuildCommand.class
+de/gamingplugin/hardCoreFFA/listener/BlockBreakListener.class
+de/gamingplugin/hardCoreFFA/listener/EntityDamageListener.class
+de/gamingplugin/hardCoreFFA/listener/FoodLVLListener.class
+de/gamingplugin/hardCoreFFA/listener/QuitListener.class
+de/gamingplugin/hardCoreFFA/listener/JoinListener.class

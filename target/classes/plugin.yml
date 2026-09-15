@@ -1,0 +1,8 @@
+name: HardCoreFFA
+version: '1.0-SNAPSHOT'
+
+main: de.gamingplugin.hardCoreFFA.HardCoreFFA
+api-version: '26.2'
+commands:
+  location:
+  build:

@@ -22,7 +22,6 @@ public class EntityDamageListener implements Listener {
 
         if(player.getLocation().getY() >= HardCoreFFA.getInstance().getConfig().getInt("Locations.spawn.y")){
             event.setCancelled(true);
-            player.sendMessage(HardCoreFFA.PREFIX + "Nicht im Spawn. :-D");
         }else  return;
 
     }

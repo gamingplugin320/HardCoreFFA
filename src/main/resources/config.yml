@@ -3,4 +3,5 @@
 JOIN_MESSAGE:
 QUIT_MESSAGE:
 
-Locations:
+locations:
+players:

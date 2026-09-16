@@ -6,3 +6,4 @@ api-version: '26.2'
 commands:
   location:
   build:
+  spawn:

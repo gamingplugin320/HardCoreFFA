@@ -7,4 +7,6 @@
 /Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/FoodLVLListener.java
 /Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/JoinListener.java
 /Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/QuitListener.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/listener/WorldListener.java
 /Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/manager/LocationManager.java
+/Users/endrew/Documents/Development/workspace/HardCoreFFA/src/main/java/de/gamingplugin/hardCoreFFA/scoreboard/ScoreboardManager.java

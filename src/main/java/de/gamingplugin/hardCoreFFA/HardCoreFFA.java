@@ -4,6 +4,7 @@ import de.gamingplugin.hardCoreFFA.commands.BuildCommand;
 import de.gamingplugin.hardCoreFFA.commands.setLocationCommand;
 import de.gamingplugin.hardCoreFFA.listener.*;
 import de.gamingplugin.hardCoreFFA.manager.LocationManager;
+import de.gamingplugin.hardCoreFFA.scoreboard.ScoreboardManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,6 +20,7 @@ public final class HardCoreFFA extends JavaPlugin {
     @Override
     public void onEnable() {
 
+        ScoreboardManager scoreboardManager = new ScoreboardManager();
         saveDefaultConfig();
         instance = this;
 
@@ -38,6 +40,7 @@ public final class HardCoreFFA extends JavaPlugin {
         pluginManager.registerEvents(new BlockBreakListener(), this);
         pluginManager.registerEvents(new EntityDamageListener(), this);
         pluginManager.registerEvents(new FoodLVLListener(), this);
+        pluginManager.registerEvents(new WorldListener(), this);
     }
 
     @Override

@@ -25,7 +25,6 @@ public class BuildCommand implements CommandExecutor {
 
                    if(player.hasPermission("ffa.build")){
 
-
                        if(build_mode == false){
                            build_mode = true;
                            player.sendTitle(HardCoreFFA.PREFIX + "Build-Modus", "§aaktiviert");

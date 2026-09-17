@@ -22,13 +22,10 @@ public class FFADefaults {
         swordMeta.setDisplayName(HardCoreFFA.PREFIX + "Schwert");
         swordMeta.isUnbreakable();
 
-        for(Player all : Bukkit.getOnlinePlayers()){
-            HardCoreFFA.getActionbarManager().sendAction(all, "§2‧§a• Kills §8§l➜ §a" +
-                    HardCoreFFA.getInstance().getConfig().getInt("players." + player.getUniqueId() + ".kills") +
-                    " §8| §4‧§c• Tode §8§l➜ §c" +
-                    HardCoreFFA.getInstance().getConfig().getInt("players." + player.getUniqueId() + ".tode"));
+      /*  for(Player all : Bukkit.getOnlinePlayers()){
+            HardCoreFFA.getActionbarManager().sendAction(all, );
         }
-
+       */
 
         BuildCommand.build_mode = false;
         ScoreboardManager.setScoreboard(player);
@@ -38,6 +35,15 @@ public class FFADefaults {
         player.setFoodLevel(20);
         player.setHealth(20);
 
+    }
+
+    public static void spawnItems(final Player player){
+        ItemStack sword = new ItemStack(Material.WOODEN_SWORD);
+        ItemMeta swordMeta = sword.getItemMeta();
+        swordMeta.setDisplayName(HardCoreFFA.PREFIX + "Schwert");
+        swordMeta.isUnbreakable();
+
+        player.getInventory().setItem(0, sword);
     }
 
 }

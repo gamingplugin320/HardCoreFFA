@@ -3,6 +3,7 @@ package de.gamingplugin.hardCoreFFA;
 import de.gamingplugin.hardCoreFFA.commands.BuildCommand;
 import de.gamingplugin.hardCoreFFA.commands.SpawnCommand;
 import de.gamingplugin.hardCoreFFA.commands.setLocationCommand;
+import de.gamingplugin.hardCoreFFA.effects.Effects;
 import de.gamingplugin.hardCoreFFA.listener.*;
 import de.gamingplugin.hardCoreFFA.manager.ActionbarManager;
 import de.gamingplugin.hardCoreFFA.manager.LocationManager;
@@ -29,11 +30,17 @@ public final class HardCoreFFA extends JavaPlugin {
         instance = this;
 
 
+
+        Bukkit.getWorld("world").setFullTime(1000);
         Bukkit.getConsoleSender().sendMessage(PREFIX + "Das Plugin wurde §agestartet§8.");
         load(Bukkit.getPluginManager());
         getCommand("location").setExecutor(new setLocationCommand());
         getCommand("build").setExecutor(new BuildCommand());
         getCommand("spawn").setExecutor(new SpawnCommand());
+
+        if(getConfig().contains("Locations.spawn")){  Effects.startParticle(locationManager.getLocation("spawn")); return;}
+;
+
 
     }
 

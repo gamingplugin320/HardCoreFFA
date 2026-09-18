@@ -1,7 +1,27 @@
-  #HarcoreFFA coded by GamingPlugin
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                                              ┃
+# ┃                    B U I L D - S E R V E R - S Y S T E M                     ┃
+# ┃                                                                              ┃
+# ┃                    A Minecraft Plugin by gamingplugin                        ┃
+# ┃                                                                              ┃
+# ┃  ────────────────────────────────────────────────────────────────────────    ┃
+# ┃                                                                              ┃
+# ┃  Developer  : gamingplugin                                                   ┃
+# ┃  Version    : 1.0.0                                                          ┃
+# ┃  Project    : GAMINGPLUGIN.DE                                                ┃
+# ┃  Discription:                                                                  ┃
+# ┃                                                                              ┃
+# ┃  Made with ❤️, ☕ and a lot of code.                                        ┃
+# ┃                                                                              ┃
+# ┃  © 2026 gamingplugin320                                                      ┃
+# ┃                                                                              ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
 
 JOIN_MESSAGE:
 QUIT_MESSAGE:
 
-locations:
+Locations:
+
 players:

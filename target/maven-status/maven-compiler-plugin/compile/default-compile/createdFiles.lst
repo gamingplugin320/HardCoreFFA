@@ -10,6 +10,7 @@ de\gamingplugin\hardCoreFFA\commands\setLocationCommand.class
 de\gamingplugin\hardCoreFFA\commands\SpawnCommand.class
 de\gamingplugin\hardCoreFFA\listener\JoinListener.class
 de\gamingplugin\hardCoreFFA\listener\EntityDamageListener.class
+de\gamingplugin\hardCoreFFA\effects\Effects.class
 de\gamingplugin\hardCoreFFA\listener\PlayerDeathListener.class
 de\gamingplugin\hardCoreFFA\listener\FoodLVLListener.class
 de\gamingplugin\hardCoreFFA\stats\Stats.class

@@ -2,10 +2,13 @@ package de.gamingplugin.hardCoreFFA.listener;
 
 import de.gamingplugin.hardCoreFFA.HardCoreFFA;
 import de.gamingplugin.hardCoreFFA.defaults.FFADefaults;
+import de.gamingplugin.hardCoreFFA.scoreboard.ScoreboardManager;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.scoreboard.Scoreboard;
 
 public class JoinListener implements Listener {
 
@@ -14,6 +17,9 @@ public class JoinListener implements Listener {
 
         final Player player = event.getPlayer();
         createPlayerIfMissing(player);
+            for (Player all : Bukkit.getOnlinePlayers()){
+                ScoreboardManager.updateOnlinePlayers(all);
+            }
 
         if (HardCoreFFA.getInstance().getConfig().contains("JOIN_MESSAGE")) {
 
@@ -49,7 +55,7 @@ public class JoinListener implements Listener {
 
         if (!HardCoreFFA.getInstance().getConfig().contains(path)) {
             HardCoreFFA.getInstance().getConfig().set(path + ".name", player.getName());
-            HardCoreFFA.getInstance().getConfig().set(path + ".Kills", 0);
+            HardCoreFFA.getInstance().getConfig().set(path + ".kills", 0);
             HardCoreFFA.getInstance().getConfig().set(path + ".tode", 0);
             HardCoreFFA.getInstance().saveConfig();
         }
